@@ -1,0 +1,9 @@
+"./App.{js,jsx,ts,tsx}", "./<custom-folder>/**/*.{js,jsx,ts,tsx}"
+
+plugins: ["nativewind/babel"] == mais novo
+
+plugins: ["tailwindcss-react-native/babel"] == mais velho
+
+no tailwindcss.config.js tem uns caminhos que ele vai ficar observando para aplicar os styles,
+um deles é o screen/..... 
+screen é um tipo de componente para navegação
