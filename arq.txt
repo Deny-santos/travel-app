@@ -7,3 +7,12 @@ plugins: ["tailwindcss-react-native/babel"] == mais velho
 no tailwindcss.config.js tem uns caminhos que ele vai ficar observando para aplicar os styles,
 um deles é o screen/..... 
 screen é um tipo de componente para navegação
+
+em app.json estava 
+    "image": "./assets/splash.png", === img do app, mostra ela enquanto carrega o app
+    "icon": "./assets/splash.png",   === icone do app na play store
+mudei para a img do restaurante:
+    image": "./assets/restaurants.png",
+    "icon": "./assets/restaurants.png",
+
+IMPORTANTE: 

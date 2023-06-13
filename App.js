@@ -15,9 +15,8 @@ export default function App() {
     <TailwindProvider>
       <SafeAreaProvider>
         <NavigationContainer>
-          <StatusBar style="auto" />
           <Stack.Navigator>
-            <Stack.Screen name="Home" component={HomeScreen} />
+            <Stack.Screen name="Home" component={HomeScreen} sty />
           </Stack.Navigator>
         </NavigationContainer>
       </SafeAreaProvider>
