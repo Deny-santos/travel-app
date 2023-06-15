@@ -15,4 +15,5 @@ mudei para a img do restaurante:
     image": "./assets/restaurants.png",
     "icon": "./assets/restaurants.png",
 
-IMPORTANTE: 
+pesquisar react native animatevble = ver as tags de animaçoes e as propiedades delas
+e instalar a react-native-animation
